@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Trial Website"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+ 
+
+  sidebar:
+    - title: "Exercise"
+      style: "docked"
+      background: light
+      contents:
+        - exercise.qmd
+        - exercise1.qmd
+        - exercise2.qmd
+        - exercise3.qmd
+        - exercise4.qmd
+        - homework1.qmd
+        - exercise_quarto.qmd
+        - exercise_stat_inference.qmd
+        - exercise_regression.qmd
+        - exercise_gtsummary.qmd
+        - exercise_zotero.qmd
+        - all_data.qmd
+                
+    
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+
+
+
+
+
+
+
+
+
